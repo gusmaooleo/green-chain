@@ -7,10 +7,10 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#f7fafa]">
       <div className="flex flex-col items-center justify-start px-6 pt-4 pb-24">
         <Image
-          src="nature.svg"
+          src="beach-vector.svg"
           alt="nature-vector"
-          height={180}
-          width={180}
+          height={300}
+          width={300}
           className="mb-15"
         />
         <h1 className="text-[#0d1c12] text-4xl md:text-5xl font-bold text-center mb-6 leading-tight">
@@ -29,7 +29,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <footer className="absolute bottom-0 w-full bg-white border-t border-gray-100 py-4">
+      <footer className="w-full bg-white border-t border-gray-100 py-4">
         <div className="container mx-auto px-6">
           <div className="flex flex-col items-center justify-center space-y-2">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
